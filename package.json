@@ -1,0 +1,36 @@
+{
+  "name": "solana-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^1.2.4",
+    "@project-serum/anchor": "^0.21.0",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.34.0",
+    "base-58": "^0.0.1",
+    "chalk": "^5.0.0",
+    "common-tags": "^1.8.2",
+    "fetch": "^1.1.0",
+    "fix-esm": "^1.0.1",
+    "inquirer": "^8.2.0",
+    "loglevel": "^1.8.0",
+    "mocha": "^9.2.0",
+    "node-fetch": "^3.2.0",
+    "prompt": "^1.2.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.5.0",
+    "tslib": "^2.3.1",
+    "weighted": "^1.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src",
+    "test": "mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}

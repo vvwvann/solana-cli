@@ -1,0 +1,9 @@
+{
+	"License": "AW43-PRU7-XAKJ-CXTP-7JEX-KWF7-7MEP-EAH3",
+	"PrivateKey": "3VY3VePVHEvfY2dcJ9wfUJRmrJFhVjmaTstH9LuhKijM2FJeVm5enU6ATKd4Gn7scwHTb5sjb3wZCY7fkYdaAL6g",
+	"APIEndpoint": "https://api.testnet.solana.com",
+	"timeout": 120000,
+	"MintAmount": 2,
+	"MaxPrice": 0.3,
+	"CandyAddress": "81yNUm79oDApyvgUn1nubQqMUFiUtGovFRYHknkrWcSn"
+}
